@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container h1 {
+    background: red;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+
+header{
+    background-image: linear-gradient(rgb(29, 29, 29) , rgb(82, 25, 148));
+    padding: 20px;
+    padding-bottom: 10vh;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+header nav {
+    padding-top: 0;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background: red;
+    border-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 70%;
+}
+header nav ul{
+    background: rgb(194, 11, 11);
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+}
+header nav ul li {
+    background:  rgb(163, 12, 12);
+    padding: 10px;
+    font-size: 20px;
+    list-style: none;
+    
+}
+

@@ -92,6 +92,7 @@ main section{
     display: flex;
     flex-direction: column;
     padding: 40px;
+   
     
 
  
@@ -106,6 +107,8 @@ main section h2{
     padding: 20px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    box-shadow: 10px 15px 10px rgb(44, 43, 43);
+   
     
 }
 
@@ -116,8 +119,33 @@ main section p {
     border: 10px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(44, 43, 43);
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 
+.bloco_paragrafo:hover{
+    background: rebeccapurple;
+
+}
+main section h2:hover + p{
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+}
+
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 
 

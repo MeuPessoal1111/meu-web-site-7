@@ -35,16 +35,25 @@ header nav {
     width: 70%;
 }
 header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background: rgb(194, 11, 11);
     padding: 20px;
     width: 80%;
     border-radius: 10px;
+    gap: 20px;
 }
 header nav ul li {
     background:  rgb(163, 12, 12);
     padding: 10px;
     font-size: 20px;
     list-style: none;
-    
+    border-radius: 10px;
+      
+}
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
 }
 

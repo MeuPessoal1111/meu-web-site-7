@@ -3,14 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-#container h1 {
+#container{
     background: red;
+}
+#inicio{
+    background-image: linear-gradient(to right, rgb(0, 252, 13) , #0043fc, yellow);
     display: flex;
     padding: 20px;
+    font-size: 40px;
     justify-content: center;
-    font-size: 80px;
     text-transform: uppercase;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+#texto{
+    
+    font-size: 1.5rem;
+    opacity: 0;
+    animation: efeitos 1s ease-in-out;
+    
+
 }
 
 
@@ -50,10 +67,57 @@ header nav ul li {
     font-size: 20px;
     list-style: none;
     border-radius: 10px;
+    transition: transform 0.3s;
       
 }
 header nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 26px;
 }
+
+header nav ul li a:hover {
+    text-decoration: underline rgb(52, 37, 109) 2px;
+    transform: translateY(-5px);
+    color: rgb(13, 194, 201);
+    
+}
+header nav ul li:hover{
+    transform: translateX(-8px) ;
+    background: rgb(192, 75, 75);
+
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    
+
+ 
+}
+
+main section h2{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    background: rgb(65, 65, 224);
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+main section p {
+    background: rgb(82, 25, 148);
+    padding: 20px;
+    font-size: 20px;
+    border: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
 

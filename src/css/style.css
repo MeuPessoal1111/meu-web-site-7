@@ -26,7 +26,6 @@
     font-size: 1.5rem;
     opacity: 0;
     animation: efeitos 1s ease-in-out;
-    
 
 }
 
@@ -139,13 +138,41 @@ main section h2:hover + p{
     from {
       margin-left: 100%;
       width: 300%;
+      opacity: 0%;
     }
   
     to {
       margin-left: 0%;
       width: 100%;
+      opacity: 100%;
     }
   }
 
+  @media(max-width:768px){
+    #inicio{
+        font-size: 20px;
+    }
+    header nav ul li a{
+        font-size: 15px;
+    }
+    header nav ul li {
+        width: 100%;
+    }
+    header nav{
+        background-image: linear-gradient(rgb(82, 25, 148) , rgb(29 ,29 ,29));
+        padding-top: 10%;
+        margin-top: 20%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    main section h2{
+        font-size: 25px;
+    }
+    main section p{
+        font-size: 20px;
+    }
+
+  
+  }
 
 
